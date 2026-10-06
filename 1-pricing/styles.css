@@ -34,11 +34,11 @@ body {
 
 .plans {
   display: flex;
-  flex-direction: row; 
-  flex-wrap: wrap;     
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: stretch;
-  gap: 0;
+  gap: 24px;           
   max-width: 960px;
   margin: 0 auto;
 }
@@ -46,14 +46,14 @@ body {
 .plan {
   background: #ffffff;
   border: 1px solid #e2e8f0;
-  border-radius: 0;
+  border-radius: 12px; 
   padding: 32px 24px;
   width: 280px;
   text-align: center;
-    
   display: flex;
   flex-direction: column;
 }
+
 
 .plan--featured {
   border: 2px solid #2563eb;
@@ -68,7 +68,7 @@ body {
 .price {
   font-size: 40px;
   font-weight: 700;
-  color: #0f172a; /* Исправлено с #f8fafc */
+  color: #0f172a; 
   margin-bottom: 20px;
 }
 
@@ -103,7 +103,7 @@ body {
   display: inline-block;
   padding: 12px 28px;
   border-radius: 8px;
-  background: #2563eb; /* Исправлено с #cbd5e1 */
+  background: #2563eb;
   color: #ffffff;
   text-decoration: none;
   font-weight: 600;
